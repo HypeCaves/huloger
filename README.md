@@ -1,7 +1,8 @@
-# Welcome to Huloger! *Simplified logging module*
+# 🥳 Welcome to Huloger! *Simplified logging module*
+*Because logging doesn’t have to be boring...*
 
 ## What is **Huloger**?
-**Huloger** is a customizable, versatile and professional logging module developed for use in Node.js projects. *It is designed specifically for Discord bots*, but can be used in any Node.js application. It can send the logging process to files, console and Discord Webhooks, and create records in JSON format or user-defined format.
+**Huloger** is a customizable, versatile and professional logging module developed for use in Node.js projects. *It is designed specifically for Discord bots*, but can be used in any Node.js application. It can send the logging process to files, console and Discord Webhooks, and create records in JSON format or user-defined format. *Because why not ^^*
 
 ## Features of Huloger
 - Multi-Channel Logging: Console, file and Discord Webhook support.
@@ -18,16 +19,19 @@
 ```bash
 npm install huloger
 ```
-So much :) *(sshh yes that's it)*
+So much :) *(sshh yes that's it. No fancy rituals or sacrifices needed. 🤓)* 
 
 ## Usage
 1. Importing the Module
+Like every good relationship, it starts with an introduction:
 ```js
 const Huloger = require('huloger');
 ```
 
 2. Basic Configuration
 **Huloger** is defined as an object. It can be configured with the following options during installation.
+*Huloger makes chopping down trees so easy you'll wonder how you ever survived before.*
+
 ```js
 const logger = new Huloger({
   logFile: 'application.log',                                                      // Log File Name
@@ -79,6 +83,8 @@ setTimeout(() => {
 | `enableJson`   | `false`         | Whether logs will be stored in JSON format.                 |
 | `timeFormat`   | `iso`           | Time format (`iso`, `utc`, `local`).                        |
 | `outputs`      | `[]`            | Additional log outputs (files or Discord Webhooks).         |
+
+*(👆🏼 Dude, how hard did I work for this painting! 😤)*
 
 ## Huloger API
 1. Methods
@@ -137,11 +143,14 @@ TIME_FORMAT=iso
 
 ## Debugging
 
-If you are having problems with Huloger, follow these steps:
+Things not working as expected? If you are having problems with Huloger, follow these steps:
 
 1. Set your log level to `debug`.
 2. Check log files (`bot.log` or another log file).
-3. Make sure you configure the Discord Webhook URL correctly.
+3. Make sure you configure the Discord Webhook URL correctly. *(don’t make it cry 😢)*
 
 ## License
-Apache-2.0
+Huloger is free and open under the Apache-2.0 license. Go ahead, make it yours. *(I wasn't serious, no one should take it 🥹)*
+
+# Finish
+AAND THAT'S ITT! No one wants to miss this amazing moment! Let's install now and start using **Hulogerr**! *Umm...* Yes that was it, goodbye. 🙂
