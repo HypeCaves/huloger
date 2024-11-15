@@ -1,0 +1,46 @@
+{
+  "name": "huloger",
+  "version": "2.4.0",
+  "description": "A customizable logging module for Discord bots, supporting console, file, and Discord channel logs with advanced features.",
+  "main": "huloger.js",
+  "scripts": {
+    "start": "node huloger.js",
+    "test": "jest",
+    "build": "echo 'No build required'",
+    "lint": "eslint .",
+    "prepare": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HypeCaves/huloger.git"
+  },
+  "keywords": [
+    "discord",
+    "logging",
+    "logger",
+    "bot",
+    "discord.js",
+    "nodejs",
+    "huloger"
+  ],
+  "author": "HypeCaves <hypecavess@outlook.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/HypeCaves/huloger/issues"
+  },
+  "homepage": "https://github.com/HypeCaves/huloger#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5",
+    "rotating-file-stream": "^3.2.5"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "https://ko-fi.com/hypecaves"
+  }
+}
